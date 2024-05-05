@@ -16,5 +16,6 @@ Authorization: ApiKey 3846f2bab89f729fb143972050edcfde1549a5c9e35e3a300d7711c874
 POST http://localhost:3000/v1/users
 
 {
-    "Name": "Abdullah Mohammed"
+    "username": "Abdullah Mohammed",
+    "email": "mohammed@gmail.com"
 }
