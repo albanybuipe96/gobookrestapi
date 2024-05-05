@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/albanybuipe96/bookrestapi/configs"
-	"github.com/albanybuipe96/bookrestapi/handlers"
-	"github.com/albanybuipe96/bookrestapi/routers"
+	"github.com/albanybuipe96/bookrestapi/internal/configs"
+	"github.com/albanybuipe96/bookrestapi/internal/handlers"
+	"github.com/albanybuipe96/bookrestapi/internal/routers"
 	"github.com/go-chi/chi"
 	"github.com/joho/godotenv"
 )

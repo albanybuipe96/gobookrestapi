@@ -6,6 +6,10 @@ import (
 	"net/http"
 )
 
+type BaseDto interface {
+	Validate() error
+}
+
 func SendJSONResponse(w http.ResponseWriter, code int, payload interface{}) {
 	data, err := json.Marshal(payload)
 	if err != nil {

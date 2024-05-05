@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/albanybuipe96/bookrestapi/utils"
+	"github.com/albanybuipe96/bookrestapi/internal/utils"
 )
 
 func Index(w http.ResponseWriter, r *http.Request) {

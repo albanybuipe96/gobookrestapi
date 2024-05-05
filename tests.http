@@ -10,12 +10,27 @@ GET http://localhost:3000/v1/error
 ### Get user by api key
 GET http://localhost:3000/v1/users
 Content-Type: application/json
-Authorization: ApiKey 3846f2bab89f729fb143972050edcfde1549a5c9e35e3a300d7711c8748bebea
+Authorization: ApiKey da645d25d2a4baa2e92d3a82b337ad89e4da0e758bf83edb311710eea680a2ea
 
 ### Creat new user
 POST http://localhost:3000/v1/users
 
 {
-    "username": "Abdullah Mohammed",
-    "email": "mohammed@gmail.com"
+    "username": "Buipe Albany",
+    "email": "albany@nexus.com"
 }
+
+### Creat new book
+POST http://localhost:3000/v1/books
+Content-Type: application/json
+Authorization: ApiKey da645d25d2a4baa2e92d3a82b337ad89e4da0e758bf83edb311710eea680a2ea
+
+{
+    "title": "The 48 Laws of Power",
+    "author": "Robert Greene",
+    "description": "Excellent book on power dynamics"
+}
+
+### Get all books
+GET http://localhost:3000/v1/books
+Content-Type: application/json
