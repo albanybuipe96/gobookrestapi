@@ -1,0 +1,20 @@
+### Check server health
+GET http://localhost:3000
+
+### Check v1 route health
+GET http://localhost:3000/v1
+
+### Error route
+GET http://localhost:3000/v1/error
+
+### Get user by api key
+GET http://localhost:3000/v1/users
+Content-Type: application/json
+Authorization: ApiKey 3846f2bab89f729fb143972050edcfde1549a5c9e35e3a300d7711c8748bebea
+
+### Creat new user
+POST http://localhost:3000/v1/users
+
+{
+    "Name": "Abdullah Mohammed"
+}
