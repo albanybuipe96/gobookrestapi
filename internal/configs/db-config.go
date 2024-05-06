@@ -1,4 +1,4 @@
-package handlers
+package configs
 
 import "github.com/albanybuipe96/bookrestapi/internal/database"
 

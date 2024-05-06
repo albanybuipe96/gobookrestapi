@@ -9,6 +9,4 @@ const (
 	PUT     = "PUT"
 	DELETE  = "DELETE"
 	OPTIONS = "OPTIONS"
-
-	V1 = "/v1"
 )
